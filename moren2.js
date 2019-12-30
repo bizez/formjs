@@ -170,7 +170,7 @@ function sendb()
      document.getElementById("nr").innerHTML='We will contact you by email or phone later, thank you!';
    // alert('Mail sent successfully, We will contact you by email or phone later, thank you!');
    var url = window.location.host;
-   window.location.href="https:"+url+"/thank-you-message.html";
+   window.location.href="https://www.fdwallcovering.com/thank-you-message.html";
 }
 function namebs(){
 	document.getElementById("nameb").placeholder = '';
