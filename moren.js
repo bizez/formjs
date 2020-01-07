@@ -92,14 +92,14 @@ function sendb()
         
           var tcmt = document.getElementById("tcmt");
           tcmt.style.display= "block";
-          document.getElementById("msg").innerHTML='Please enter your Name';
+          document.getElementById("msg").innerHTML='';
        // alert("Please enter your Name1");
         return false;
     }
     if(email==""){
          var tcmt = document.getElementById("tcmt");
           tcmt.style.display= "block";
-          document.getElementById("msg").innerHTML='Please enter your Email';
+          document.getElementById("msg").innerHTML='';
         //alert("Please enter your Email");
         return false;
     }
@@ -107,14 +107,14 @@ function sendb()
         //alert("Please enter your Phone");
         var tcmt = document.getElementById("tcmt");
           tcmt.style.display= "block";
-          document.getElementById("msg").innerHTML='Please enter your Phone';
+          document.getElementById("msg").innerHTML='';
         return false;
     }
     if(masg==""){
         //alert("Please enter your Message");
         var tcmt = document.getElementById("tcmt");
           tcmt.style.display= "block";
-          document.getElementById("msg").innerHTML='Please enter your Message';
+          document.getElementById("msg").innerHTML='';
         return false;
     }
     if(!check_email(email)){
@@ -174,59 +174,39 @@ function sendb()
 }
 function namebs(){
 	document.getElementById("nameb").placeholder = '';
-	document.getElementById("emailb").placeholder = 'Please enter your Email';
-	document.getElementById("phoneb").placeholder = 'Please enter your Phone';
-	document.getElementById("masgb").placeholder = 'To get best quotes, we recommend including the following details:\n' +
-				'\n' +
-				'-Self introduction\n' +
-				'-What are you looking for\n' +
-				'-Required specifications\n' +
-				'-Inquire about price/MOQ';
+	document.getElementById("emailb").placeholder = '';
+	document.getElementById("phoneb").placeholder = '';
+	document.getElementById("masgb").placeholder = '';
 		}
 		function namebs2(){
-			document.getElementById("nameb").placeholder = 'Please enter your Name';
+			document.getElementById("nameb").placeholder = '';
 		}
 		function emailbs(){
-			document.getElementById("nameb").placeholder = 'Please enter your Name';
+			document.getElementById("nameb").placeholder = '';
 			document.getElementById("emailb").placeholder = '';
-			document.getElementById("phoneb").placeholder = 'Please enter your Phone';
-			document.getElementById("masgb").placeholder = 'To get best quotes, we recommend including the following details:\n' +
-						'\n' +
-						'-Self introduction\n' +
-						'-What are you looking for\n' +
-						'-Required specifications\n' +
-						'-Inquire about price/MOQ';
+			document.getElementById("phoneb").placeholder = '';
+			document.getElementById("masgb").placeholder = '';
 		}
 		function emailbs2(){
-			document.getElementById("emailb").placeholder = 'Please enter your Email';
+			document.getElementById("emailb").placeholder = '';
 		}
 		function phonebs(){
-			document.getElementById("nameb").placeholder = 'Please enter your Name';
-			document.getElementById("emailb").placeholder = 'Please enter your Email';
+			document.getElementById("nameb").placeholder = '';
+			document.getElementById("emailb").placeholder = '';
 			document.getElementById("phoneb").placeholder = '';
-			document.getElementById("masgb").placeholder = 'To get best quotes, we recommend including the following details:\n' +
-						'\n' +
-						'-Self introduction\n' +
-						'-What are you looking for\n' +
-						'-Required specifications\n' +
-						'-Inquire about price/MOQ';
+			document.getElementById("masgb").placeholder = '';
 		}
 		function phonebs2(){
-			document.getElementById("phoneb").placeholder = 'Please enter your Phone';
+			document.getElementById("phoneb").placeholder = '';
 		}
 		function masgbs(){
-			document.getElementById("nameb").placeholder = 'Please enter your Name';
-			document.getElementById("emailb").placeholder = 'Please enter your Email';
-			document.getElementById("phoneb").placeholder = 'Please enter your Phone';
+			document.getElementById("nameb").placeholder = '';
+			document.getElementById("emailb").placeholder = '';
+			document.getElementById("phoneb").placeholder = '';
 			document.getElementById("masgb").placeholder = '';
 		}
 		function masgbs2(){
-			document.getElementById("masgb").placeholder = 'To get best quotes, we recommend including the following details:\n' +
-            '\n' +
-            '-Self introduction\n' +
-            '-What are you looking for\n' +
-            '-Required specifications\n' +
-            '-Inquire about price/MOQ';
+			document.getElementById("masgb").placeholder = '';
 		}
 //验证邮箱
 function check_email(val){
