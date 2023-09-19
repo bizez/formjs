@@ -249,7 +249,7 @@ function sende()
           moda3cover.style.display= "block";
         return false;
 	}
-	               document.getElementById("msg32").innerHTML='<span style="font-size:18px">Message Sending。。。</span><br/><span style="font-size:12px">If The Waiting Time For Sending Is Too Long, Please Refresh And Try Again!</span>';
+	               document.getElementById("msg32").innerHTML='<span style="font-size:18px">Message Sending....</span><br/><span style="font-size:12px">If The Waiting Time For Sending Is Too Long, Please Refresh And Try Again!</span>';
       var moda3cover = document.getElementById("moda3cover2");
           moda3cover.style.display= "block";
     for(i=0;i<imgs.length;i++){
